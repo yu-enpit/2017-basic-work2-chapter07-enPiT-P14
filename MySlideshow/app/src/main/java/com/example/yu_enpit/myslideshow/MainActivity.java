@@ -96,7 +96,6 @@ public class MainActivity extends AppCompatActivity {
         mImageSwitcher.setInAnimation(this, android.R.anim.slide_in_left);
         mImageSwitcher.setOutAnimation(this, android.R.anim.fade_out);
         movePosition(-1);
-        findViewById(R.id.imageView).animate().setDuration(1000).alpha(0.0f);
     }
 
     public void onNextButtontapped(View view){
